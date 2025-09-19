@@ -8,6 +8,11 @@ return {
       load = {
         ['core.defaults'] = {},
         ['core.concealer'] = {},
+        ['core.summary'] = {
+          config = {
+            strategy = 'default', -- or "by_path"
+          },
+        },
         ['core.keybinds'] = {
           config = {
             default_keybinds = true,
